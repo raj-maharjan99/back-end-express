@@ -1,10 +1,9 @@
 const express = require('express');
+const product = require('./data');
 const app = express()
 const port = 5000;
 
-const products = [
-    { id: '1', name:""}
-]
+console.log(product)
 
 
 app.get('/', (req, res)=> {
