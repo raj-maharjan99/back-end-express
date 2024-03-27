@@ -1,1 +1,3 @@
-console.log('hello fro nodemon')
+const data = require("./data");
+
+console.log(data)
